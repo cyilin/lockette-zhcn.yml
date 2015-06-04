@@ -1,0 +1,45 @@
+language: zhcn
+author: cyilin https://github.com/cyilin/lockette-zhcn.yml
+editors: 
+version: 0
+alternate-private-tag: 私有
+alternate-moreusers-tag: 更多用户
+alternate-everyone-tag: 所有玩家
+alternate-operators-tag: 管理员
+alternate-timer-tag: 定时器
+alternate-fee-tag: Fee
+msg-user-conflict-door: 与已存在的私有门冲突
+msg-user-illegal: Illegal chest removed!
+msg-user-resize-owned: 你不能改变***的箱子
+msg-help-chest: 请在箱子侧面放置一个告示牌，将此箱子设为私有。
+msg-owner-release: 你已经取消了这个私有箱子。
+msg-admin-release: (管理员) @@@ 已解除***的私有箱子保护!
+msg-user-release-owned: 你不能解除***的私有箱子
+msg-owner-remove: 你已从箱子移除用户
+msg-user-remove-owned: 你不能移除***的箱子
+msg-user-break-owned: 你不能破坏***的箱子.
+msg-user-denied-door: 你没有权限使用这个门
+msg-user-touch-fee: '你需要向***支付###才能使用'
+msg-user-touch-owned: 此箱子的所有者是***
+msg-help-select: 已选择告示牌，请使用命令 /lockette <行号> <文字或玩家id> 对告示牌进行编辑
+msg-admin-bypass: 你已通过管理员权限打开***的私有门，打开后请注意关闭
+msg-admin-snoop: (管理员) @@@ 检查了***的私有箱子
+msg-user-denied: 你没有权限使用这个箱子
+msg-error-zone: 此区域已被***保护
+msg-error-permission: 你没有使用lockette的权限
+msg-error-claim: 周围未找到可被保护的箱子或门
+msg-error-claim-conflict: 与已存在的私有门冲突
+msg-admin-claim-error: 玩家***不在线，或请检查玩家名称及大小写是否正确
+msg-admin-claim: 已将所有者设置为***
+msg-owner-claim: 已设置为私有
+msg-error-adduser-owned: 不能向***的箱子添加用户
+msg-error-adduser: 没有可添加用户的私有箱子
+msg-owner-adduser: 已添加用户至私有箱子
+msg-help-command1: '&C/lockette <行号> <文字或玩家id> - 编辑锁箱子的告示牌(需要先右键选择告示牌)'
+msg-help-command2: '&C/lockette fix - 修复错误状态的自动门(请先将准星对准要修复的门)'
+msg-help-command3: '&C/lockette reload - 重新加载lockette插件的配置文件(仅限管理员使用)'
+msg-help-command4: '&C/lockette version - 显示lockette插件的版本'
+msg-admin-reload: 已重新加载配置文件
+msg-error-fix: 未找到你所拥有的门(请先将准星对准要修复的门)
+msg-error-edit: 请先右键选择一个私有告示牌，再使用编辑命令
+msg-owner-edit: 编辑成功
